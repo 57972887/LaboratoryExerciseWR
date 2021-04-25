@@ -63,17 +63,17 @@ calculated by you matches the provided.
 #### 3.3 STEP 02 - Basic analysis of the subject
 Your forensic team needs a basic analysis of the operating system. Use the output files from the previous step as the main source of your information.
 
-1.	Extract specific data about operating system listed below.
+1.	Extract specific data about operating system listed below.  
 •	Computer name.  
 •	Information about time zone.  
 •	Last Shutdown time.  
 •	Is last access time disabled or enabled?  
 •	Information about environment.  
 •	Product name, installation time and date.  
-2.	Find information about user
+2.	Find information about user  
 •	What username did the user used? What SID is bound to this username?  
 •	Was there any password hint?  
-3.	Identify keys that gather information about processes.
+3.	Identify keys that gather information about processes.  
 •	What processes were running during image acquisition and which control set was loaded?  
 •	Are there any processes, which are executed at system start-up or when opening Windows Explorer?  
 4.	Analyze all mounted devices, which were attached to the system.

@@ -47,39 +47,35 @@ calculated by you matches the provided.
 •	Who took that disk image, when was the image taken?   
 2.	Mount the given disk image and file system analysis.  
 •	What file system was the attacker using?   
-•	Find out information like number of partitions, size of the individual partitions and any useful information 
-for the next part.
-•	What commands did you use to mount the given disk image?
-•	How many created users does this disk image contain?
-•	Do not forget all the necessary options when mounting!!!
-3.	Extract hive files from the disk image.
-•	Find the individual hives and extract them to your case directory.
-•	How many hive files did you extract?
-•	How to preserve the integrity of these hive files? Calculate what is necessary and create output file with 
-those values.
+•	Find out information like number of partitions, size of the individual partitions and any useful information for the next part.  
+•	What commands did you use to mount the given disk image?  
+•	How many created users does this disk image contain?  
+•	Do not forget all the necessary options when mounting!!!  
+3.	Extract hive files from the disk image.  
+•	Find the individual hives and extract them to your case directory.  
+•	How many hive files did you extract?  
+•	How to preserve the integrity of these hive files? Calculate what is necessary and create output file with those values.  
 4.	With the help of RegRipper create output files for every hive file you extracted.
-•	Create multiple output .txt files with findings from every extracted hive file. If you do not know how to 
-use program RegRipper in SIFT workstation, see the following link ().
+•	Create multiple output .txt files with findings from every extracted hive file. If you do not know how to use program RegRipper in SIFT workstation, see the following link ().  
 
 
 
 #### 3.3 STEP 02 - Basic analysis of the subject
-Your forensic team needs a basic analysis of the operating system. Use the output files from the previous step 
-as the main source of your information.
+Your forensic team needs a basic analysis of the operating system. Use the output files from the previous step as the main source of your information.
 
 1.	Extract specific data about operating system listed below.
-•	Computer name.
-•	Information about time zone.
-•	Last Shutdown time.
-•	Is last access time disabled or enabled?
-•	Information about environment.
-•	Product name, installation time and date.
+•	Computer name.  
+•	Information about time zone.  
+•	Last Shutdown time.  
+•	Is last access time disabled or enabled?  
+•	Information about environment.  
+•	Product name, installation time and date.  
 2.	Find information about user
-•	What username did the user used? What SID is bound to this username?
-•	Was there any password hint?
+•	What username did the user used? What SID is bound to this username?  
+•	Was there any password hint?  
 3.	Identify keys that gather information about processes.
-•	What processes were running during image acquisition and which control set was loaded?
-•	Are there any processes, which are executed at system start-up or when opening Windows Explorer?
+•	What processes were running during image acquisition and which control set was loaded?  
+•	Are there any processes, which are executed at system start-up or when opening Windows Explorer?  
 4.	Analyze all mounted devices, which were attached to the system.
 
 

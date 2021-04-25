@@ -141,4 +141,4 @@ Hooray, you did it! You saved us a lot of time by finding that password. However
 
 
 [//]: #
-[ntools]: <https://github.com/57972887/LaboratoryExerciseWR/tree/master/Documents/Manuals>
+[ntools]: <https://github.com/57972887/LaboratoryExerciseWR/blob/master/Documents/Manuals/Necessary%20Tools.md>

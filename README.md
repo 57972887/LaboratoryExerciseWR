@@ -13,7 +13,9 @@ Follow this [link][ntools] to install all the necessary tools.
 In order to maintain the continuity of the laboratory exercise, it is advisable to follow the individual steps. 
 However, this requirement is for guidance only. There are several tasks in each step, and you should answer all 
 the questions or do all the subtasks that are part of these tasks to complete them. If you find some task 
-difficult or unsolvable, you can look at the correct answer sheet that will be present with each task.
+difficult or unsolvable, you can look at the correct answer sheet that will be present with each task.  
+
+Correct answers can be found on the following [link][corra].
 
 ### 3. Assignment
 
@@ -139,6 +141,10 @@ Hooray, you did it! You saved us a lot of time by finding that password. However
 4.	To which country they wanted to flee after the attack.
 
 
+### 4. Conclusion
+Thank you for doing this practical laboratory exercise, I hope you enjoyed it and learnt something new about Windows Registry along the way.
+
 
 [//]: #
 [ntools]: <https://github.com/57972887/LaboratoryExerciseWR/blob/master/Documents/Manuals/Necessary%20Tools.md>
+[corra]: <https://google.com>

@@ -41,12 +41,12 @@ Note all things along the way!
 
 1.	Unzip the given .zip file.
 •	Based on the provided hash value, verify what kind of hash function it is and whether the hash value 
-calculated by you matches the provided. 
-•	How many files the given .zip file contains?
-•	In what format was the disk image taken?
-•	Who took that disk image, when was the image taken?
-2.	Mount the given disk image and file system analysis.
-•	What file system was the attacker using? 
+calculated by you matches the provided.   
+•	How many files the given .zip file contains?   
+•	In what format was the disk image taken?   
+•	Who took that disk image, when was the image taken?   
+2.	Mount the given disk image and file system analysis.  
+•	What file system was the attacker using?   
 •	Find out information like number of partitions, size of the individual partitions and any useful information 
 for the next part.
 •	What commands did you use to mount the given disk image?

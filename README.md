@@ -39,7 +39,7 @@ In this step, your task is to verify the disk image, find out information about 
 image correctly, extract the hive files from the disk image and run program RegRipper against all the hives. 
 Note all things along the way!
 
-1.	Unzip the given .zip file.
+1.	Unzip the given .zip file.  
 •	Based on the provided hash value, verify what kind of hash function it is and whether the hash value 
 calculated by you matches the provided.   
 •	How many files the given .zip file contains?   
@@ -55,8 +55,8 @@ calculated by you matches the provided.
 •	Find the individual hives and extract them to your case directory.  
 •	How many hive files did you extract?  
 •	How to preserve the integrity of these hive files? Calculate what is necessary and create output file with those values.  
-4.	With the help of RegRipper create output files for every hive file you extracted.
-•	Create multiple output .txt files with findings from every extracted hive file. If you do not know how to use program RegRipper in SIFT workstation, see the following link ().  
+4.	With the help of RegRipper create output files for every hive file you extracted.  
+•	Create multiple output .txt files with findings from every extracted hive file. If you do not know how to use program RegRipper in SIFT workstation, see the following [link][ntools].  
 
 
 

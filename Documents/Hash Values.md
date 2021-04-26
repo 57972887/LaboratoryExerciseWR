@@ -1,0 +1,9 @@
+# SHA256 value for each hive file  
+
+Amcache.hve 	d993ce0c234e381e28419b4ae4e244ad64c6b152add2dade827da4ad30afed02    
+NTUSER.DAT 	d5c35a01d3ba1d4256e652affb82f9665aee045e0011fd07a31d574d20fae750    
+SAM0 		91bdcd6a40c7e7cc43a70bab28f83b432babd784bb087989040cd0bb54f7e9b    
+SECURITY 	d08e2aacff67b440c9be48e4e4d1923e87fbea8d0926d1fa67b5ac138e6194a2    
+SOFTWARE	06ed10ff2bca636a5ef0519802328b4b3de02d2f7c497dfb29b31b9449abf948    
+SYSTEM		b062d7542aa343ce38999fe6ac4dc5e9a01052f32ddc21b6eae1cae882b225bd    
+UsrClass.dat	8601ac6817f6d9ec844001536f223ee0b89954e00f7e2d0dcdcd6aa0bc6262c4    

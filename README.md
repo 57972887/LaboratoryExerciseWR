@@ -47,11 +47,11 @@ calculated by you matches the provided.
 •	How many files the given .zip file contains?   
 •	In what format was the disk image taken?   
 •	Who took that disk image, when was the image taken?   
-2.	Mount the given disk image and file system analysis.  
+2.	Mounting the image and file system analysis.  
 •	What file system was the attacker using?   
-•	Find out information like number of partitions, size of the individual partitions and any useful information for the next part.  
+•	Find out information about Partition table (e.g. number of partitions, size of the individual partitions and any useful information for the next part).  
 •	What commands did you use to mount the given disk image?  
-•	How many created users does this disk image contain?  
+•	How many created users does this disk image contain (do not count Administrator or Guest)? 
 •	Do not forget all the necessary options when mounting!!!  
 3.	Extract hive files from the disk image.  
 •	Find the individual hives and extract them to your case directory.  
@@ -63,22 +63,28 @@ calculated by you matches the provided.
 
 
 #### 3.3 STEP 02 - Basic analysis of the subject
-Your forensic team needs a basic analysis of the operating system. Use the output files from the previous step as the main source of your information.
+Your forensic team needs a basic analysis of the operating system. Use the output files from the previous step as the main source of your information.  
+For this STEP you can use vim and the search option. But you should know where to find required information.
 
 1.	Extract specific data about operating system listed below.  
 •	Computer name.  
 •	Information about time zone.  
-•	Last Shutdown time.  
-•	Is last access time disabled or enabled?  
-•	Information about environment.  
-•	Product name, installation time and date.  
+•	Last Shutdown time.   
+•	Information about environment. Processor architecture, Number of processors)  
+•	Product name, installation time and date, release ID.
 2.	Find information about user  
-•	What username did the user used? What SID is bound to this username?  
+•	What username did the user use? What RID and SID is bound to this username?
 •	Was there any password hint?  
+•	When was the account created?
 3.	Identify keys that gather information about processes.  
-•	What processes were running during image acquisition and which control set was loaded?  
-•	Are there any processes, which are executed at system start-up or when opening Windows Explorer?  
+•	Identify the services that updated the browser Microsoft Edge, extract the timestamp and the name of the .exe file (create new file if necessary and use the appropriate plugin). 
+•	Are there any processes, which are executed at system start-up? List them all.
+•	Identify the network cards and default gateway MAC address with timestamps.
+•	Search for DHCP server and DNS IP addresses.
 4.	Analyze all mounted devices, which were attached to the system.
+•	Look for Portable devices and analyze all devices under this key. Note the Device description and device name.
+•	Now search for mounted devices. Can you find some similarity between the devices in this list according to the extracted device description. Which drive letter was assigned to this device?
+•	Based on the name of the device, find the first installation date, last arrival date and last removal date.
 
 
 After a basic analysis, the essential thing comes to mind. The detainee refuses to testify, even laughing at 
@@ -93,38 +99,41 @@ you can figure out what that number should represent, maybe the whole case would
 If you've already looked at the data on the mounted drive, you may have noticed that there is a huge tree 
 structure on the desktop. Maybe this is where the attacker hid his password. Extract useful information 
 from the output file that you obtained from the individual hive files.
-1.	In what format are those files?
-2.	What keys/values did you use?
-3.	How many clues are hidden in the given disk image?
-4.	What is the first clue?
+1.	Navigate yourself to the tree structure. In what format are files in the tree structure? What type of characters do folder names contain?
+2.	What is the last opened .txt file?  Note also the LastWrite time.
+3.	Based on the Last Write time, try to find directory with the help of ShellBags.
+4.	How many clues are hidden in the given disk image?
+5.	What is the first clue?
+
 
 #### 3.5 STEP 04 - Pictures
 We know it's not much, but a colleague from another forensic team advised us that one perpetrator hid a lot 
 of information in the pictures. Try to analyze the last opened images/pictures, but beware that essential 
 information may also be hidden in the image metadata.
-1.	Analyze recently opened images.
-2.	What keys/values did you use?
+1.	Analyze recently opened pictures. Maybe the user used some Windows based programs to open those pictures.
+2.	Use the right tools to extract extra information about each picture.
 3.	What is the second clue?
+
 
 
 #### 3.6 STEP 05 - Paths that the user searched for
 The next step would be to analyze the keys that the user activity created in the sense when e.g. he searched 
 for something and entered input from the keyboard.
-1.	What keys/values did you use?
+1.	What keys/values could contain such information?
 2.	Analyze suspicious files.
 3.	Did you find the third clue?
 4.	Where can it be?
 5.	What is the third clue?
 
 
+
 #### 3.7 STEP 06 - Executable files
-Looks like we are pretty close to finding the password, now try to analyze .exe files and find those files 
-whose timestamps are suspicious.
-1.	What keys/values would you use? 
-2.	According to the detected key, extract data from the appropriate hive file, which you can further filter by time stamps.
-3.	Analyze the suspicious .exe file. Analyze the source code, is there any file that this program works with.
-4.	What format does this file have?  
-5.	What is the fourth clue?
+Looks like we are pretty close to finding the password, now try to analyze .exe files with the help of Shimcache. If necessary, create new output file with findings from just one plugin.
+1.	According to the detected key, extract data from the appropriate hive file, which you can further investigate or filter.
+2.	Analyze the suspicious .exe file. Analyze the source code, is there any file that this program works with.
+3.	What format does this file have?  
+4.	What is the fourth clue?
+
 
 
 #### 3.8 STEP 07 - Find the password
@@ -135,7 +144,7 @@ Based on the indications provided, find out what the password of the .zip file i
 
 #### 3.9 STEP 08 - Analyze the .zip file
 Hooray, you did it! You saved us a lot of time by finding that password. However, the work is not finished yet, please analyze the contents of the .zip file and determine, what is the target of these attackers.
-1.	What did you find in this .zip file? 
+1.	What did you find in this .zip file? List all files.
 2.	What is the real target of those attackers?
 3.	How many attackers were to take part in this attack? Note also names/nicknames.
 4.	To which country they wanted to flee after the attack.

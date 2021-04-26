@@ -81,14 +81,14 @@ For this STEP you can use vim and the search option. But you should know where t
 •	Was there any password hint?  
 •	When was the account created?
 3.	Identify keys that gather information about processes.  
-•	Identify the services that updated the browser Microsoft Edge, extract the timestamp and the name of the .exe file (create new file if necessary and use the appropriate plugin). 
-•	Are there any processes, which are executed at system start-up? List them all.
-•	Identify the network cards and default gateway MAC address with timestamps.
-•	Search for DHCP server and DNS IP addresses.
-4.	Analyze all mounted devices, which were attached to the system.
-•	Look for Portable devices and analyze all devices under this key. Note the Device description and device name.
-•	Now search for mounted devices. Can you find some similarity between the devices in this list according to the extracted device description. Which drive letter was assigned to this device?
-•	Based on the name of the device, find the first installation date, last arrival date and last removal date.
+•	Identify the services that updated the browser Microsoft Edge, extract the timestamp and the name of the .exe file (create new file if necessary and use the appropriate plugin).  
+•	Are there any processes, which are executed at system start-up? List them all.   
+•	Identify the network cards and default gateway MAC address with timestamps.  
+•	Search for DHCP server and DNS IP addresses.  
+4.	Analyze all mounted devices, which were attached to the system.   
+•	Look for Portable devices and analyze all devices under this key. Note the Device description and device name.  
+•	Now search for mounted devices. Can you find some similarity between the devices in this list according to the extracted device description. Which drive letter was assigned to this device?   
+•	Based on the name of the device, find the first installation date, last arrival date and last removal date.  
 
 
 After a basic analysis, the essential thing comes to mind. The detainee refuses to testify, even laughing at 

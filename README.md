@@ -156,4 +156,4 @@ Thank you for doing this practical laboratory exercise, I hope you enjoyed it an
 
 [//]: #
 [ntools]: <https://github.com/57972887/LaboratoryExerciseWR/blob/master/Documents/Manuals/Necessary%20Tools.md>
-[corra]: <https://google.com>
+[corra]: <https://github.com/57972887/LaboratoryExerciseWR/blob/master/Documents/Correct%20Answers/Correct_answers.md>

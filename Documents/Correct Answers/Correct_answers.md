@@ -22,7 +22,7 @@
 •	USERCLASS.DAT /Users/unit2/AppData/Local/Microsoft/Windows  
 •	Command cp (copy) should be used to extract hive files (e.g. cp /mnt/windows_mnout/Windows/System32/config/SAM /destination/path/).  
 •	Number of hive files  == 7.   
-•	Use sha256sum and calculate hash values of each extracted hive file. List of the sha256 values can be found on the following [link].  
+•	Use sha256sum and calculate hash values of each extracted hive file. List of the sha256 values can be found on the following [link][hash].  
 4.	With the help of RegRipper create output files for every hive file you extracted.  
 •	Example - rip.pl –r SYSTEM –a > outputSYSTEM.txt (same for other hive files) or you can use some fancy for-each statement.  
 
@@ -99,4 +99,4 @@
 
 
 [//]: #
-[hash]: <https://github.com/57972887/LaboratoryExerciseWR/blob/master/Documents/Manuals/Necessary%20Tools.md>
+[hash]: <https://github.com/57972887/LaboratoryExerciseWR/blob/master/Documents/Hash%20Values.md>

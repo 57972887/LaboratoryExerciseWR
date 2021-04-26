@@ -1,5 +1,7 @@
 # Practical laboratory exercise - Forensic analysis of Windows Registry
 
+To download the disk image follow this [link][image].  
+
 ## 1. Necessary tools
 
 As already mentioned in the document, to process this lab exercise you will need a SIFT workstation (Virtualbox VM), 
@@ -159,3 +161,4 @@ Thank you for doing this practical laboratory exercise, I hope you enjoyed it an
 [//]: #
 [ntools]: <https://github.com/57972887/LaboratoryExerciseWR/blob/master/Documents/Manuals/Necessary%20Tools.md>
 [corra]: <https://github.com/57972887/LaboratoryExerciseWR/blob/master/Documents/Correct%20Answers/Correct_answers.md>
+[image]: <https://drive.google.com/file/d/13W3MH3LYFgp1ruFv59TKvn-pAiMIgyX7/view?usp=sharing>

@@ -20,6 +20,7 @@ Next we will install RegRipper3.0. Everything you need to know about this instal
 
 NOTE – unlike in the document, we have to unfortunately use the command line version of RegRipper, but no worries it is also really simple.
 
-Before running the RegRipper, make sure also to run the plugins_repair.sh (found on following link - https://github.com/57972887/LaboratoryExerciseWR ).
-Start by typing rip.pl –r /path/to/hive/file –a > output.txt, this will parse specified hive file and create output.txt file with findings.
-Last but not least, you have to download the image from github repository (https://github.com/57972887/LaboratoryExerciseWR ). You can either download only the image or clone the whole repository and then extract the image.
+Before running the RegRipper, make sure also to run the plugins_repair.sh (found on following link - https://github.com/57972887/LaboratoryExerciseWR).  
+Start by typing rip.pl –r /path/to/hive/file –a > output.txt, this will parse specified hive file and create output.txt file with findings.  
+  
+Last but not least, you have to download the image from github repository (https://github.com/57972887/LaboratoryExerciseWR).  

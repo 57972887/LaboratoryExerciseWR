@@ -77,7 +77,7 @@ For this STEP you can use vim and the search option. But you should know where t
 •	Information about environment. Processor architecture, Number of processors)  
 •	Product name, installation time and date, release ID.
 2.	Find information about user  
-•	What username did the user use? What RID and SID is bound to this username?
+•	What username did the user use? What RID and SID is bound to this username?  
 •	Was there any password hint?  
 •	When was the account created?
 3.	Identify keys that gather information about processes.  
